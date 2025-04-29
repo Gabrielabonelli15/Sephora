@@ -7,38 +7,108 @@
 </head>
 <body>
 
-     <main id="Pesquisa">
-            <div><img src="printLupa.PNG" id="pesquisa1" alt="pesquisa"/></div>
-            <div><input type="text" id="txtpesquisa" placeholder="Pesquisar na Sephora"/></div>
-            <div><img src="printcode.PNG" id="pesquisa2" alt="pesquisa"/></div>
-     </main>
+<main id="Pesquisa">
+    <div><img src="printLupa.PNG" id="pesquisa1" alt="pesquisa"/></div>
+    <div><input type="text" id="txtpesquisa" placeholder="Pesquisar na Sephora"/></div>
+    <div><img src="printcode.PNG" id="pesquisa2" alt="pesquisa"/></div>
+</main>
 
-     <div class="pagina">
+    <div class="pagina">
         <div class="active">CATEGORIAS</div>
         <div>MARCAS</div>
-     </div>
-    
+    </div>
+
       <section class="banner">
         <img src="PrintNars.png" alt="Promoção NARS" />
       </section>
     
-      <ul class="categories">
-        <li><img src="iconeM.PNG" alt=""><h5>MAQUIAGEM</h5> <div class="arrow">›</div></li>
-        <li><img src="iconeP.PNG" alt=""><h5>PERFUMES</h5> <div class="arrow">›</div></li>
-        <li><img src="iconeS.PNG" alt=""><h5>SKINCARE</h5> <div class="arrow">›</div></li>
-        <li><img src="iconeC.PNG" alt=""><h5>CABELOS</h5> <div class="arrow">›</div></li>
-        <li><img src="iconeSnS.PNG" alt=""><h5>SÓ NA SEPHORA</h5> <div class="arrow">›</div></li>
-        <li><img src="iconeO.PNG" alt=""><h5>OFERTAS</h5> <div class="arrow">›</div></li>
-        <li><h5>PREMIUM</h5> <div class="arrow">›</div></li>
+      <ul class="categarias">
+
+        <div class="maquiagem">
+            <div class="left">
+              <img src="iconeM.PNG" alt="Ícone" class="icon">
+              <h5>MAQUIAGEM</h5>
+            </div>
+            <p class="arrow"> > </p>
+          </div>
+
+          <div class="perfumes">
+            <div class="left">
+              <img src="iconeP.PNG" alt="Ícone" class="icon">
+              <h5>PERFUMES</h5>
+            </div>
+            <p class="arrow"> > </p>
+          </div>
+
+          <div class="skincare">
+            <div class="left">
+              <img src="iconeS.PNG" alt="Ícone" class="icon">
+              <h5>SKINCARE</h5>
+            </div>
+            <p class="arrow"> > </p>
+          </div>
+       
+          <div class="cabelos">
+            <div class="left">
+              <img src="iconeC.PNG" alt="Ícone" class="icon">
+              <h5>CABELOS</h5>
+            </div>
+            <p class="arrow"> > </p>
+          </div>
+       
+          <div class="sonasephora">
+            <div class="left">
+              <img src="iconeSnS.PNG" alt="Ícone" class="icon">
+              <h5>SÓ NA SEPHORA</h5>
+            </div>
+            <p class="arrow"> > </p>
+          </div>
+
+          <div class="ofertas">
+            <div class="left">
+              <img src="iconeO.PNG" alt="Ícone" class="icon">
+              <h5>OFERTAS</h5>
+            </div>
+            <p class="arrow"> > </p>
+          </div>
+
+          <div class="premium">
+            <div class="left">
+              <h5>PREMIUM</h5>
+            </div>
+            <p class="arrow"> > </p>
+          </div>
       </ul>
-    
-      <div class="footer">
-        <div><img src="iconehome.PNG" alt=""><p>Home</p></div>
-        <div><img src="iconecompra.PNG" alt=""><p>Comprar</p></div>
-        <div><img src="iconesacola.PNG" alt=""><p>Sacola</p></div>
-        <div><img src="iconefavoritos.PNG" alt=""><p>Wishlist</p></div>
-        <div><img src="iconeconta.PNG" alt=""><p>Conta</p></div>
-      </div>
+
+      <div class="container">
+        <h1>Teste de Preferências Rápidas</h1>
+        <div id="quiz">
+            <div class="question">
+                <p>Qual tipo de maquiagem você prefere?</p>
+            </div>
+            <div class="options">
+                <div class="option" onclick="showResults('leve')">Leve e Natural</div>
+                <div class="option" onclick="showResults('pesada')">Pesada e Marcante</div>
+            </div>
+        </div>
+        <div id="result" class="result">
+            <p>Recomendamos os seguintes produtos para você:</p>
+            <ul>
+                <li id="product1"></li>
+                <li id="product2"></li>
+                <li id="product3"></li>
+            </ul>
+        </div>
+    </div>
+
+
+<div class="footer">
+    <div><img src="iconehome.PNG" alt=""><p>Home</p></div>
+    <div><img src="iconecompra.PNG" alt=""><p>Comprar</p></div>
+    <div><img src="iconesacola.PNG" alt=""><p>Sacola</p></div>
+    <div><img src="iconefavoritos.PNG" alt=""><p>Wishlist</p></div>
+    <div><img src="iconeconta.PNG" alt=""><p>Conta</p></div>
+</div>
 
 </body>
 </html>

@@ -28,15 +28,12 @@
     justify-content: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: sans-serif;
   background-color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .pagina {
@@ -61,12 +58,12 @@ body {
   display: block;
 }
 
-.categories {
+.categorias {
   list-style: none;
   padding: 10px;
 }
 
-.categories li {
+.categorias li {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,28 +71,27 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-.categories li img {
-  width: 24px;
+.categorias li img {
+  width: 50px;
   margin-right: 10px;
 }
 
-.categories li span.arrow {
+.categorias li span.arrow {
   color: #999;
 }
 
-.categories .premium {
+.categorias .premium {
   font-weight: bold;
   margin-left: 34px;
 }
 
 .footer {
-  bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
   background: white;
-  border-top: 1px solid #ccc;
-  padding: 8px 0;
+  padding: 8px;
+  align-items: center;
 }
 
 .footer div {
@@ -108,4 +104,210 @@ body {
 
 .footer .active {
   color: #000;
+}
+
+.maquiagem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+.maquiagem .left {
+    display: flex;
+    align-items: center;
+}
+  
+.maquiagem .icon {
+    width: 50px;
+    height: 60px;
+    margin-right: 8px;
+}
+  
+.maquiagem .arrow {
+    font-size: 16px;
+    color: #999;
+}
+
+.perfumes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+.perfumes .left {
+    display: flex;
+    align-items: center;
+}
+  
+.perfumes .icon {
+    width: 50px;
+    height: 60px;
+    margin-right: 8px;
+}
+  
+.perfumes .arrow {
+    font-size: 16px;
+    color: #999;
+}
+
+.skincare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+.skincare .left {
+    display: flex;
+    align-items: center;
+}
+  
+.skincare .icon {
+    width: 50px;
+    height: 60px;
+    margin-right: 8px;
+}
+  
+.skincare .arrow {
+    font-size: 16px;
+    color: #999;
+}
+
+.cabelos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+.cabelos .left {
+    display: flex;
+    align-items: center;
+}
+  
+.cabelos .icon {
+    width: 50px;
+    height: 60px;
+    margin-right: 8px;
+}
+  
+.cabelos .arrow {
+    font-size: 16px;
+    color: #999;
+}
+
+.sonasephora{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+.sonasephora .left {
+    display: flex;
+    align-items: center;
+}
+  
+.sonasephora .icon {
+    width: 50px;
+    height: 60px;
+    margin-right: 8px;
+}
+  
+.sonasephora .arrow {
+    font-size: 16px;
+    color: #999;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+.ofertas .left {
+    display: flex;
+    align-items: center;
+}
+  
+.ofertas .icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+  
+.ofertas .arrow {
+    font-size: 16px;
+    color: #999;
+}
+
+.premium{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+.premium .left {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+.question {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.option {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.option:hover {
+    background-color: #e0e0e0;
+}
+.result {
+    display: none;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
 }
