@@ -39,7 +39,7 @@ body {
   background-color: #fff;
 }
 
-.tabs {
+.pagina {
   display: flex;
   justify-content: space-around;
   font-weight: bold;
@@ -47,14 +47,12 @@ body {
   border-bottom: 2px solid #ccc;
 }
 
-.tabs span {
+.pagina div {
   padding: 10px;
-  cursor: pointer;
   color: #777;
 }
 
-.tabs .active {
-  border-bottom: 2px solid #000;
+.pagina .active {
   color: #000;
 }
 
