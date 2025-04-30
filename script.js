@@ -1,16 +1,17 @@
-function showResults(preference) {
+function teste(preference) {
     document.getElementById('quiz').style.display = 'none';
-    document.getElementById('result').style.display = 'block';
+    document.getElementById('resultado').style.display = 'block';
 
     if (preference === 'leve') {
-        document.getElementById('product1').innerText = 'Base leve e natural';
-        document.getElementById('product2').innerText = 'Batom nude';
-        document.getElementById('product3').innerText = 'Máscara de cílios suave';
+        document.getElementById('produto1').innerText = 'Base leve e natural';
+        document.getElementById('produto2').innerText = 'Batom nude';
+        document.getElementById('produto3').innerText = 'Máscara de cílios suave';
     } 
     
     else {
-        document.getElementById('product1').innerText = 'Base de alta cobertura';
-        document.getElementById('product2').innerText = 'Batom vermelho intenso';
-        document.getElementById('product3').innerText = 'Sombra escura e marcante';
+        document.getElementById('produto1').innerText = 'Base de alta cobertura';
+        document.getElementById('produto2').innerText = 'Batom vermelho intenso';
+        document.getElementById('produto3').innerText = 'Sombra escura e marcante';
     }
 }
+teste(preference);
