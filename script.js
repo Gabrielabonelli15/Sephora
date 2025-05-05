@@ -3,8 +3,8 @@ function teste(preference) {
     document.getElementById('resultado').style.display = 'block';
 
     if (preference === 'leve') {
-        document.getElementById('produto1').innerText = 'Base leve e natural';
-        document.getElementById('produto2').innerText = 'Batom nude';
+        document.getElementById('produto1').innerText = 'Base leve';
+        document.getElementById('produto2').innerText = 'Gloss incolor com brilho';
         document.getElementById('produto3').innerText = 'Máscara de cílios suave';
     } 
     

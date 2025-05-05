@@ -263,9 +263,64 @@ body {
     align-items: center;
 }
 
-.teste{
-    justify-content: space-between;
-    align-items: center;
+.teste {
+    background-color: #85a4b1;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .teste h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .opcao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .opcao div {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
+    background-color: #e7f1f5;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .opcao div:hover {
+    background-color: #d2e6ed;
+  }
+  
+  .resultado {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .resultado ul {
+    padding-left: 20px;
+  }
+
+  .blocoopcao {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .opcao {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .opcao:hover {
+    background-color: #f0f0f0;
+  }
