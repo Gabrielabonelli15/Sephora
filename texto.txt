@@ -1,0 +1,6 @@
+    Essa nova funcionalidade é um Teste de Preferências Rápidas, que serve para
+ajudar os clientes a encontrarem produtos que combinam mais com o seu gosto. Por exemplo,
+quando o usuário escolhe entre maquiagem leve ou pesada, o site mostra automaticamente 
+sugestões de produtos que têm a ver com aquela escolha. Isso deixa a navegação mais fácil 
+e rápida, sem a pessoa precisar procurar muito.Além disso, é uma forma mais divertida
+e prática de conhecer novas opções.
